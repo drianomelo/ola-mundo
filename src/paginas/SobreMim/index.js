@@ -1,6 +1,5 @@
 import PostModelo from "components/PostModelo";
 import fotoCapa from "assets/sobre_mim_capa.png";
-import fotoSobreMim from "assets/sobre_mim_foto.png";
 import styles from "./SobreMim.module.css";
 
 export default function SobreMim() {
@@ -9,7 +8,7 @@ export default function SobreMim() {
       <h3 className={styles.subtitulo}>Olá, Eu sou o Adriano!</h3>
 
       <img
-        src={fotoSobreMim}
+        src="https://github.com/drianomelo.png"
         alt="foto do moral"
         className={styles.fotoSobreMim}
       />
